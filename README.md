@@ -1,9 +1,10 @@
-# lamtuanvu/homebrew-tap
+# homebrew-tap
 
-Homebrew formulae for [pacer](https://github.com/lamtuanvu/pacer): subscription budgets for AI coding agents.
+Homebrew formulae by lamtuanvu.
 
-```sh
-brew install lamtuanvu/tap/pacer
-```
+| Formula | Install |
+| --- | --- |
+| [pacer](https://github.com/lamtuanvu/pacer): subscription budgets for AI coding agents | `brew install lamtuanvu/tap/pacer` |
+| ghr | `brew install lamtuanvu/tap/ghr` |
 
-`Formula/pacer.rb` is updated automatically by pacer's release workflow. Report problems in the [pacer repository](https://github.com/lamtuanvu/pacer/issues).
+Formulae are updated by each project's release workflow.
