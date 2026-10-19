@@ -1,30 +1,30 @@
 class Pacer < Formula
   desc "Subscription budget routing for AI coding agents"
   homepage "https://github.com/lamtuanvu/pacer"
-  version "0.3.0"
+  version "0.3.1"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/lamtuanvu/pacer/releases/download/v0.3.0/pacer-darwin-arm64"
-      sha256 "cac3c030a49eef2e957d333526ffb0dcc67dc2c74922144576b6af34c3d61309"
+      url "https://github.com/lamtuanvu/pacer/releases/download/v0.3.1/pacer-darwin-arm64"
+      sha256 "f91e96ce8907b20ecf4ed7cae0ac75e8cfe7a9e86b95f4b83d5a0039262ff079"
     end
 
     on_intel do
-      url "https://github.com/lamtuanvu/pacer/releases/download/v0.3.0/pacer-darwin-x64"
-      sha256 "fdbb8191e69535714e6c6e18a1844fb96919f1b15e43a273174832580ffb103f"
+      url "https://github.com/lamtuanvu/pacer/releases/download/v0.3.1/pacer-darwin-x64"
+      sha256 "04f024c5b72d875b1df557885ad4b8f8ba33d10f7062baf1e8e4658b66718101"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/lamtuanvu/pacer/releases/download/v0.3.0/pacer-linux-arm64"
-      sha256 "c73de84730cea834b0e4960425ad84bbd4cea24fd6ecae3bc1564f186c117cc8"
+      url "https://github.com/lamtuanvu/pacer/releases/download/v0.3.1/pacer-linux-arm64"
+      sha256 "fc2d5e7ee164110c152272acc492af85ad1f9d633e93e100f04cdb3bc635f9ba"
     end
 
     on_intel do
-      url "https://github.com/lamtuanvu/pacer/releases/download/v0.3.0/pacer-linux-x64"
-      sha256 "f0fef9097ac635f64e7452feee3324e7a2ebdf2e777635b87284c9a614cdf08f"
+      url "https://github.com/lamtuanvu/pacer/releases/download/v0.3.1/pacer-linux-x64"
+      sha256 "138fdb5ece513beaf9a6c548b54f2b69fcc01eae8c35968d5f9b02a669496cd9"
     end
   end
 
