@@ -1,45 +1,45 @@
 class Pacer < Formula
   desc "Subscription budget routing for AI coding agents"
   homepage "https://github.com/lamtuanvu/pacer"
-  version "0.17.7"
+  version "0.17.8"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/lamtuanvu/pacer/releases/download/v0.17.7/pacer-darwin-arm64"
-      sha256 "c51bf4604ed84d305095cf5237669b522aa9434e7e3f1ae87aee330f8cb4318a"
+      url "https://github.com/lamtuanvu/pacer/releases/download/v0.17.8/pacer-darwin-arm64"
+      sha256 "acad3a0e3fffd73c4b9e8e8d6059ec1ffd3bd4c7eda9b83812daefacf95fefaf"
       resource "pacer-core" do
-        url "https://github.com/lamtuanvu/pacer/releases/download/v0.17.7/pacer-core-darwin-arm64"
-        sha256 "dabada8fb47b3b2f3108b9d0acafb57f0880a653b84ae1be9c715902ed5136f5"
+        url "https://github.com/lamtuanvu/pacer/releases/download/v0.17.8/pacer-core-darwin-arm64"
+        sha256 "8e9c2993b68eaa2e72306b306ccc7baa494c11768d68f9b23503ddadd79ca488"
       end
     end
 
     on_intel do
-      url "https://github.com/lamtuanvu/pacer/releases/download/v0.17.7/pacer-darwin-x64"
-      sha256 "400053eda67200ee6ee42631a4b13ff45ba138a18a0410dea635ebcf87ef1041"
+      url "https://github.com/lamtuanvu/pacer/releases/download/v0.17.8/pacer-darwin-x64"
+      sha256 "25f5404bfee79d9a8db0ae71fec8d46e0e4d56e344d883b47fdef8d6294dd2f1"
       resource "pacer-core" do
-        url "https://github.com/lamtuanvu/pacer/releases/download/v0.17.7/pacer-core-darwin-x64"
-        sha256 "22179d92032ae2c356f54659fc22bec990ea4aaa8cc4961491ea7105c7385209"
+        url "https://github.com/lamtuanvu/pacer/releases/download/v0.17.8/pacer-core-darwin-x64"
+        sha256 "07245920ddd8e68b43d316812d7ad9e48a4b0863f7803005a0f3292901781d40"
       end
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/lamtuanvu/pacer/releases/download/v0.17.7/pacer-linux-arm64"
-      sha256 "772a3e06cff1f7ce96fed083860857d2177572ca1d5204ad7aeb791f0f73681e"
+      url "https://github.com/lamtuanvu/pacer/releases/download/v0.17.8/pacer-linux-arm64"
+      sha256 "61f50da862d7072b3b3a9351dc2a92f3e7a59b623335ee07b9a6f16e1876a179"
       resource "pacer-core" do
-        url "https://github.com/lamtuanvu/pacer/releases/download/v0.17.7/pacer-core-linux-arm64"
-        sha256 "35797ca0d58ed4211d0109b34dc443fdce4c41db1cdb63865abb9a730a66b353"
+        url "https://github.com/lamtuanvu/pacer/releases/download/v0.17.8/pacer-core-linux-arm64"
+        sha256 "5e35aff1b1a5674d83d80fb2850b880ab062e4956b842b2dd98c5d04462209a6"
       end
     end
 
     on_intel do
-      url "https://github.com/lamtuanvu/pacer/releases/download/v0.17.7/pacer-linux-x64"
-      sha256 "a448414144ff5a1f5be10747ed66dc583f052512d9a4d6c7b5353f0abd874bd8"
+      url "https://github.com/lamtuanvu/pacer/releases/download/v0.17.8/pacer-linux-x64"
+      sha256 "10729a850fbe1efde258b2b2d3ea45a36a3480365dd8c6ba978882b991eb3af2"
       resource "pacer-core" do
-        url "https://github.com/lamtuanvu/pacer/releases/download/v0.17.7/pacer-core-linux-x64"
-        sha256 "10cb60704c27a66202d2676aeefe0a49ef902a0461b7a2952ea316bd96dd0767"
+        url "https://github.com/lamtuanvu/pacer/releases/download/v0.17.8/pacer-core-linux-x64"
+        sha256 "b09f256c7dcaf24262f8b33a9ce4904a387f5d3f993c767e97c7782ab1321ec3"
       end
     end
   end
