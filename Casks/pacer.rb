@@ -1,13 +1,13 @@
 cask "pacer" do
-  version "0.18.1"
+  version "0.18.2"
 
   on_arm do
-    sha256 "9b627f5017e39ada5297f06244d1ee0efdab0a9d3423711089f6675431af3afd"
+    sha256 "ba2a7d5dfdfa8a7924ef28446b5c498b4d62faeabef1ebecaf7bd9636619063b"
 
     url "https://github.com/lamtuanvu/pacer/releases/download/v#{version}/desktop-pacer-#{version}-darwin-aarch64.dmg"
   end
   on_intel do
-    sha256 "42e76fc082da66a6dbff85e163d6d10e6dcb870f89283a29a8d9c98b66eab4ba"
+    sha256 "0794a5fc9cecb8fb5373aa8085f647b0afb72953fd2f6295d7c5c553118ae684"
 
     url "https://github.com/lamtuanvu/pacer/releases/download/v#{version}/desktop-pacer-#{version}-darwin-x86_64.dmg"
   end
